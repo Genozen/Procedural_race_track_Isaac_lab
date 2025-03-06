@@ -27,7 +27,7 @@ pip install pyvista
 2. Run the procedural generation example to launch the Isaac Lab and configure the track with cones </br>
 ```python procedural_generated_tracks.py```
 
-`offset_track()` in `procedural_path.py` the inner cones generated and offset them by a distance to form the outer cones, thus making a track.
+`offset_track()` in `procedural_path.py` takes the inner cones generated and offset them by a distance to form the outer cones, thus making a track.
 
 
 ## ToDos
