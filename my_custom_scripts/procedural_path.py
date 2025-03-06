@@ -81,7 +81,6 @@ def interpolate_large_gaps(points, num_samples=10, gap_threshold=5.0):
     return interpolated_points
     
 
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Generate a procedurally generated racetrack')
     parser.add_argument('--track_3D', type=bool, default=False, help='Create 3D racetrack or not')
