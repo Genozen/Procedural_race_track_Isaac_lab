@@ -22,10 +22,17 @@ pip install pyvista
 
 ## How to Run?
 
-1. Run to generate a procedural path, this outputs a `.npy` data file </br>
+1. Run </br>
 ```python procedural_path.py --screen_x=500 --screen_y=500```
-2. Run the procedural generation example to launch the Isaac Lab and configure the track with cones </br>
+This will generate few things:
+- `track_.npy` # the inner loop of the track
+- `track_offset_.npy` # the outer loop of the track
+- `track_.png` # a visual img of the track
+
+2. Run </br>
 ```python procedural_generated_tracks.py```
+This script reads the `track_.npy` and `track_offset_.npy` and generates the cones corresponding to the track path in Isaac Lab environment
+
 
 `offset_track()` in `procedural_path.py` takes the inner cones generated and offset them by a distance to form the outer cones, thus making a track.
 
