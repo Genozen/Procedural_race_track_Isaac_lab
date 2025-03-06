@@ -1,3 +1,11 @@
+Original Credit: 
+https://github.com/ChrisPHP/ProceduralRacetrack
+
+Explaination:
+https://www.youtube.com/watch?v=BTfghIWZFMw&ab_channel=Chris_PHP
+
+
+
 
 More F1 race track-like:
 
