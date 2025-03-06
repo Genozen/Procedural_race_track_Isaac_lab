@@ -28,3 +28,9 @@ pip install pyvista
 ```python procedural_path.py --screen_x=500 --screen_y=500```
 2. Run the procedural generation example to launch the Isaac Lab and configure the track with cones </br>
 ```python procedural_generated_tracks.py```
+
+
+## ToDos
+- [ ] Fix normal vector flips on sharper turns
+- [ ] Expose some parameters for users to tune track parameters
+- [ ] Configure into IsaacLab training scheme
