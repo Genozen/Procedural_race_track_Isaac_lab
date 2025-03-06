@@ -24,6 +24,7 @@ pip install pyvista
 
 1. Run </br>
 ```python procedural_path.py --screen_x=500 --screen_y=500```</br>
+
 This will generate few things:
 - `track_.npy` # the inner loop of the track
 - `track_offset_.npy` # the outer loop of the track
@@ -31,6 +32,7 @@ This will generate few things:
 
 2. Then run </br>
 ```python procedural_generated_tracks.py``` </br>
+
 This script reads the `track_.npy` and `track_offset_.npy` and generates the cones corresponding to the track path in Isaac Lab environment
 
 
