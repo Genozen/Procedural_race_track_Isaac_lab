@@ -29,7 +29,7 @@ This will generate few things:
 - `track_offset_.npy` # the outer loop of the track
 - `track_.png` # a visual img of the track
 
-2. Run </br>
+2. Then run </br>
 ```python procedural_generated_tracks.py``` </br>
 This script reads the `track_.npy` and `track_offset_.npy` and generates the cones corresponding to the track path in Isaac Lab environment
 
